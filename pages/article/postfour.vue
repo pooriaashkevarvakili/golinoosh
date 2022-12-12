@@ -2,10 +2,10 @@
     <div style="direction:rtl" class="2xl:flex xl:flex lg:flex block  justify-between">
         <div>
             <div class="mr-20">
-                <img class="w-11/12" src="../../public/img/gol.jpeg" alt="">
+                <img class="w-11/12" src="../../public/img/zanbour.jpeg" alt="">
                 <div class="card w-11/12 bg-base-100 shadow-xl">
                     <div class="card-body">
-                        <ContentDoc class="text-xl" path="/blog/postone" />
+                        <ContentDoc class="text-xl" path="/blog/postfour" />
                     </div>
                     <hr />
                     <div class="cart-body">

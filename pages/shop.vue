@@ -1,11 +1,7 @@
 <template>
     <div style="direction:rtl">
-        <div class="2xl:mr-5 xl:mr-5 lg:mr-5 md:mr-72 sm:mr-56 4xl:mr-36 5xl:mr-32 text-2xl">
-            فروشگاه
-        </div>
-
         <div
-            class="grid mt-4 2xl:grid-cols-4 xl:grid-cols-2 lg:grid-cols-2 2xl:mr-0 xl:mr-0 lg:mr-0 md:mr-72 sm:mr-52 4xl:mr-36 5xl:mr-20 gird-cols-1 2xl:gap-4 xl:gap-4 lg:gap-4 gap-4">
+            class="grid mt-4 3xl:mr-12 3xl:grid-cols-3 2xl:grid-cols-4 xl:grid-cols-2 lg:grid-cols-2 2xl:mr-0 xl:mr-0 lg:mr-0 md:mr-72 sm:mr-52 4xl:mr-36 5xl:mr-20 gird-cols-1 2xl:gap-4 xl:gap-4 lg:gap-4 gap-4">
             <div v-for="product in products" :key="product.id" class="card w-96 bg-base-100 shadow-xl">
                 <figure><img :src="product.img" :alt="product.name" /></figure>
                 <div class="card-body">
@@ -33,6 +29,9 @@ import { useCartStore } from "../stores/cart"
 const counterStore = useProductStore()
 const cartStore = useCartStore()
 const products = computed(() => counterStore.getProducts)
+useHead({
+    title: 'فروشگاه'
+})
 </script>
 
 <style>

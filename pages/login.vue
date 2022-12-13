@@ -6,6 +6,7 @@
 definePageMeta({
     layout: 'login'
 })
+
 </script>
 
 <style>

@@ -47,7 +47,7 @@
                             <li><nuxt-link to="/blog">مجله</nuxt-link></li>
                             <!-- Navbar menu content here -->
                             <li><nuxt-link to="/contact">تماس با ما</nuxt-link></li>
-                            <li><nuxt-link to="/about">درباره ما</nuxt-link></li>
+                            <li><nuxt-link to="/dabare">درباره ما</nuxt-link></li>
                             <li><nuxt-link to="/shop">فروشگاه</nuxt-link></li>
                             <li><nuxt-link to="/">خانه</nuxt-link></li>
                             <li>
@@ -109,7 +109,7 @@
                     <li><nuxt-link to="/blog" href="">مجله</nuxt-link></li>
                     <!-- Navbar menu content here -->
                     <li><nuxt-link to="/contact">تماس با ما</nuxt-link></li>
-                    <li><nuxt-link to="/about">درباره ما</nuxt-link></li>
+                    <li><nuxt-link to="/dabare">درباره ما</nuxt-link></li>
                     <li><nuxt-link to="/shop">فروشگاه</nuxt-link></li>
                     <li><nuxt-link to="/">خانه</nuxt-link></li>
 

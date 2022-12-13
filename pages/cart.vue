@@ -11,7 +11,7 @@
             <nuxt-link class="bg-black px-10 py-3 rounded-xl mt-5 text-white" to="/">خانه</nuxt-link>
         </div>
         <div
-            class="grid 2xl:ml-10 xl:ml-10 md:ml-24 sm:ml-12 4xl:ml-10 5xl:ml-8 lg:ml-10 mt-4 2xl:grid-cols-4 xl:grid-cols-2 lg:grid-cols-2 gird-cols-1 2xl:gap-4 xl:gap-4 lg:gap-4 gap-4">
+            class="grid  3xl:grid-cols-3 2xl:ml-10 xl:ml-10 md:ml-24 sm:ml-12 4xl:ml-10 5xl:ml-8 lg:ml-10 mt-4 2xl:grid-cols-3 xl:grid-cols-2 lg:grid-cols-2 gird-cols-1 2xl:gap-4 xl:gap-4 lg:gap-4 gap-4">
             <div v-for="item in product" :key="item.id" class="card w-96 bg-base-100 shadow-xl">
                 <figure><img :src="item.img" :alt="item.name" /></figure>
                 <div class="card-body">
@@ -34,10 +34,14 @@
 </template>
 
 <script setup>
+
 import { useCartStore } from "../stores/cart"
 const cartStore = useCartStore()
 const product = computed(() => cartStore.getProducts)
 const totalAmount = computed(() => cartStore.totalAmount)
+useHead({
+    title: 'سبدخرید'
+})
 </script>
 
 <style>

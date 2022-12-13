@@ -42,7 +42,7 @@
 import { ref } from "vue"
 import { useRouter } from "vue-router"
 useHead({
-    title: "login",
+    title: "ثبت نام",
 });
 const router = useRouter()
 const username = ref('')

@@ -1,7 +1,8 @@
 <template>
     <div class="mt-4" style="direction:rtl">
-        <div class="mr-40">مجله</div>
-        <div class="grid grid-cols-3 gap-3 mr-40 mt-4 ">
+        <div class="2xl:mr-40 xl:mr-40 lg:mr-40 md:mr-56 sm:mr-52 4xl:mr-36 5xl:mr-28">مجله</div>
+        <div
+            class="grid 2xl:grid-cols-3 2xl:mr-40 xl:mr-40 lg:mr-40 sm:mr-44 4xl:mr-28 5xl:mr-24 md:mr-56 xl:grid-cols-2 lg:grid-cols-2 grid-cols-1 gap-3  mt-4 ">
             <div class="card w-96 bg-base-100 shadow-xl">
                 <figure><img src="/img/gol.jpeg" alt="Shoes" /></figure>
                 <div class="card-body">

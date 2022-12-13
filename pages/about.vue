@@ -1,15 +1,14 @@
 <template>
-    <div>
-        <div class="text-center">
-            <div class="text-3xl mt-3">درباره ما</div>
-            <div class="w-11/12 mt-4 ml-16 h-56" style="direction:rtl">
-                <ContentDoc class="text-xl" path="about" />
+    <div class="flex items-center justify-center">
+        <div class="card  w-7/12  rounded-lg  bg-base-100 shadow-xl">
+            <div class="card-body">
+                <div class="text-center">
+                    <div class="text-3xl mt-3">درباره ما</div>
+                    <ContentDoc class="text-xl" path="about" />
+                </div>
             </div>
-
-
         </div>
     </div>
-
 </template>
 
 <script>

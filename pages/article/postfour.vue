@@ -1,16 +1,18 @@
 <template>
     <div style="direction:rtl" class="2xl:flex xl:flex lg:flex block  justify-between">
         <div>
-            <div class="mr-20">
-                <img class="w-11/12" src="../../public/img/zanbour.jpeg" alt="">
-                <div class="card w-11/12 bg-base-100 shadow-xl">
+            <div class="2xl:mr-20 xl:mr-20 lg:mr-20 md:mr-24 sm:mr-10">
+                <img class="2xl:w-11/12 xl:w-11/12 lg:w-11/12 md:w-9/12 4xl:w-10/12 5xl:w-10/12 "
+                    src="../../public/img/zanbour.jpeg" alt="">
+                <div
+                    class="card 2xl:w-11/12 xl:w-11/12 lg:w-11/12 md:w-9/12 sm:w-10/12 4xl:w-10/12 5xl:w-10/12  bg-base-100 shadow-xl">
                     <div class="card-body">
                         <ContentDoc class="text-xl" path="/blog/postfour" />
                     </div>
                     <hr />
                     <div class="cart-body">
                         <div class="flex justify-between p-4">
-                            <div>اشتراک گذاری</div>
+                            <div class="hidden 2xl:block xl:block lg:block">اشتراک گذاری</div>
                             <div class="flex ">
                                 <button class="btn  rounded-full w-14 h-14 bg-white hover:bg-green-500">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="#000000" viewBox="0 0 50 50"
@@ -44,7 +46,8 @@
             </div>
         </div>
         <div class="flex flex-col ">
-            <div class="card w-96 mt-4 h-40 ml-40 bg-base-100 shadow-xl">
+            <div
+                class="card 4xl:w-9/12 5xl:w-9/12 5xl:mr-4 4xl:mr-2 sm:w-9/12 sm:mr-10  2xl:w-96 xl:w-96 lg:w-96 md:w-8/12 mt-4 h-40 2xl:ml-40 xl:ml-40 lg:ml-40 md:mr-24 bg-base-100 shadow-xl">
                 <div class="card-body">
                     <h2 class="card-title">دسته بندی</h2>
                     <hr />
@@ -53,7 +56,8 @@
                     </div>
                 </div>
             </div>
-            <div class="card w-96 mt-4 h-40 ml-40 bg-base-100 shadow-xl">
+            <div
+                class="card sm:w-9/12 5xl:w-9/12 5xl:mr-4 4xl:w-9/12 4xl:mr-2 sm:mr-10 2xl:w-96 xl:w-96 lg:w-96 md:w-8/12  2xl:ml-40 xl:ml-40 lg:ml-40 md:mr-24 mt-4 h-40 ml-40 bg-base-100 shadow-xl">
                 <div class="card-body">
                     <h2 class="card-title">عضویت خبرنامه</h2>
                     <hr />
@@ -63,7 +67,8 @@
                     </div>
                 </div>
             </div>
-            <div class="card w-96 mt-4 h-40 ml-40 bg-base-100 shadow-xl">
+            <div
+                class="card sm:w-9/12 5xl:w-9/12 5xl:mr-4 4xl:w-9/12 4xl:mr-2 sm:mr-10 2xl:w-96 xl:w-96 lg:w-96 md:w-8/12 2xl:ml-40 xl:ml-40 lg:ml-40 md:mr-24 mt-4 h-40 ml-40 bg-base-100 shadow-xl">
                 <div class="card-body">
                     <h2 class="card-title">بایگانی نوشته‌ها</h2>
                     <hr />
@@ -78,7 +83,8 @@
                     </div>
                 </div>
             </div>
-            <div class="card w-96 mt-4 h-40 ml-40 bg-base-100 shadow-xl">
+            <div
+                class="card sm:w-9/12 5xl:w-9/12 5xl:mr-4 4xl:w-9/12 4xl:mr-2 sm:mr-10 2xl:w-96 xl:w-96 lg:w-96 md:w-8/12  2xl:ml-40 xl:ml-40 lg:ml-40 md:mr-24 mt-4 h-40 ml-40 bg-base-100 shadow-xl">
                 <div class="card-body">
                     <h2 class="card-title">برچسب‌ها</h2>
                     <hr />
@@ -93,13 +99,11 @@
                             <span class="mt-2 mr-3">
                                 راه اندازی فروشگاه
                             </span>
-
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
     </div>
 </template>
 <script></script>
